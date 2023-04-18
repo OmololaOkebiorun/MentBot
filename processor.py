@@ -62,6 +62,6 @@ def Response(ints, intents_json):
 def chatbot_response(msg):
     ints = sentence_class(msg, model)
     res = Response(ints, intents)
-    return res
+    print(res)
 
 
